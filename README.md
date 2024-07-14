@@ -3,6 +3,7 @@ Bayesian framework for discovering interpretable Lagrangian of dynamical systems
 
 ## This repository contains the python codes of the paper 
   > + Tapas Tripura and Souvik Chakraborty (2024). A Bayesian framework for discovering interpretable Lagrangian of dynamical systems from data. [Paper](https://arxiv.org/abs/2310.06241)
+  > + Schematic Architecture
   ![Schematic Architecture](Methodology_Lagrange.png)
 
 ## Files
