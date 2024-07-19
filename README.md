@@ -20,20 +20,18 @@ Bayesian framework for discovering interpretable Lagrangian of dynamical systems
     |_📄 train_trap.py    # Train HNN for Penning-Trap
   |_📄 analyze-3dof.ipynb   # Predict and analyze the trained HNN model of 3DOF oscillator
   |_📄 analyze-cqd.ipynb    # Predict and analyze the trained HNN model of CQD oscillator
-  |_📄 analyze-Trap.ipynb   # Predict and analyze the trained HNN model of Penning-Trap oscillator
+  |_📄 analyze-Trap.ipynb   # Predict and analyze the trained HNN model of Penning-Trap 
 📂 LNN
   |_📂 LNN_3DOF
     |_📂 notebooks
-      |_📄 Structure_3dof.ipynb
+      |_📄 Structure_3dof.ipynb    # Train LNN for 3DOF oscillator
   |_📂 LNN_Nonlinear
     |_📂 notebooks
-      |_📄 Nonlinear.ipynb
+      |_📄 Nonlinear.ipynb         # Train LNN for cubic-quintic-Duffing oscillator
   |_📂 LNN_Trap
     |_📂 notebooks
-      |_📄 Structure_trap.ipynb
-  |_📄 datasets.py # General mixed-data sets. Contains the dictionary describing all available data.
-  |_📄 hdf5_datasets.py # Individual classes relating to specific datasets. 
-  |_📄 mixed_dset_sampler.py # Sampler class for uniformly sampling from different sub-dsets per micro-batch
+      |_📄 Structure_trap.ipynb    # Train LNN for Penning-Trap 
+
 📄 `lagrange_Bayes_CQD.py` To discover the Lagrangian of the cubic-quintic-Duffing oscillator.
 📄 `lagrange_Bayes_Trap.py` To discover the Lagrangian of the Penning Trap.
 📄 `lagrange_Bayes_3DOF.py` To discover the Lagrangian of a 3DOF oscillator.
