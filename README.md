@@ -1,12 +1,12 @@
 # Bayesian-Lagrangian-Discovery
 Bayesian framework for discovering interpretable Lagrangian of dynamical systems from data
 
-## This repository contains the python codes of the paper 
+## This repository contains the Python codes of the paper 
   > + Tapas Tripura and Souvik Chakraborty (2024). A Bayesian framework for discovering interpretable Lagrangian of dynamical systems from data. [Paper](https://arxiv.org/abs/2310.06241)
   > + Schematic Architecture
   ![Schematic Architecture](Methodology_Lagrange.png)
 
-  > + Cpmparison with HNN and LNN
+  > + Comparison with HNN and LNN
   ![Comparison](Comparison.png)  
 
 ## Files
@@ -21,7 +21,7 @@ Bayesian framework for discovering interpretable Lagrangian of dynamical systems
   + `beam3fun.py` This code contains functions for the Euler-Bernoulli beam simulation.
     
 ## BibTex
-If you take help of our codes, please cite us at,
+Cite us at,
 ```
 @article{tripura2023bayesian,
   title={A Bayesian framework for discovering interpretable Lagrangian of dynamical systems from data},
