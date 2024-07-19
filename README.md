@@ -7,14 +7,16 @@ Bayesian framework for discovering interpretable Lagrangian of dynamical systems
   ![Schematic Architecture](Methodology_Lagrange.png)
 
 ## Files
-  + `1) Burgers equation.ipynb` This code is for discovering 1D Burgers' equation.
-  + `2) 1-D Heat equation.ipynb` This code is for discovering 1D Heat' equation.
-  + `2-D Heat equation.ipynb` This code is for discovering 2D Heat' equation.
-  + `3) TwoSolitonKDV .ipynb` This code is for discovering KdV' equation.
-  + `4) Kuramoto Sivashinky eqn.ipynb` This code is for discovering 1D KS' equation.
-  + `5) Wave equation.ipynb` This code is for discovering 1D Wave' equation
-  + `utils_0.py` It contains the useful functions to perform Variational Bayes regression.
-
+  + `lagrange_Bayes_CQD.py` To discover the Lagrangian of the cubic-quintic-Duffing oscillator.
+  + `lagrange_Bayes_Trap.py` To discover the Lagrangian of the Penning Trap.
+  + `lagrange_Bayes_3DOF.py` To discover the Lagrangian of a 3DOF oscillator.
+  + `lagrange_Bayes_string.py` To discover the Lagrangian of wave equation.
+  + `lagrange_Bayes_beam.py` To discover the Lagrangian of the Euler-Bernoulli beam.
+  + `lagrange_Bayes_Two_Body.py` To discover the Lagrangian of the two-body system.
+  + `utils.py` This code contains useful functions for library construction and sparse Bayesian regression.
+  + `utils_data.py` This code contains useful functions for data generation.
+  + `beam3fun.py` This code contains functions for the Euler-Bernoulli beam simulation.
+    
 ## BibTex
 If you take help of our codes, please cite us at,
 ```
