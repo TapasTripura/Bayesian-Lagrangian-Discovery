@@ -6,6 +6,9 @@ Bayesian framework for discovering interpretable Lagrangian of dynamical systems
   > + Schematic Architecture
   ![Schematic Architecture](Methodology_Lagrange.png)
 
+  > + Cpmparison with HNN and LNN
+  ![Comparison](Comparison.png)  
+
 ## Files
   + `lagrange_Bayes_CQD.py` To discover the Lagrangian of the cubic-quintic-Duffing oscillator.
   + `lagrange_Bayes_Trap.py` To discover the Lagrangian of the Penning Trap.
