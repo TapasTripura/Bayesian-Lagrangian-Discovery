@@ -10,15 +10,40 @@ Bayesian framework for discovering interpretable Lagrangian of dynamical systems
   ![Comparison](Comparison.png)  
 
 ## Files
-  + `lagrange_Bayes_CQD.py` To discover the Lagrangian of the cubic-quintic-Duffing oscillator.
-  + `lagrange_Bayes_Trap.py` To discover the Lagrangian of the Penning Trap.
-  + `lagrange_Bayes_3DOF.py` To discover the Lagrangian of a 3DOF oscillator.
-  + `lagrange_Bayes_string.py` To discover the Lagrangian of wave equation.
-  + `lagrange_Bayes_beam.py` To discover the Lagrangian of the Euler-Bernoulli beam.
-  + `lagrange_Bayes_Two_Body.py` To discover the Lagrangian of the two-body system.
-  + `utils.py` This code contains useful functions for library construction and sparse Bayesian regression.
-  + `utils_data.py` This code contains useful functions for data generation.
-  + `beam3fun.py` This code contains functions for the Euler-Bernoulli beam simulation.
+```
+📂 HNN
+  |_📂 experiment-3dof
+    |_📄 train_3dof.py    # Train HNN for 3DOF oscillator
+  |_📂 experiment-CQD
+    |_📄 train_CQD.py     # Train HNN for cubic-quintic-Duffing oscillator
+  |_📂 experiment-trap
+    |_📄 train_trap.py    # Train HNN for Penning-Trap
+  |_📄 analyze-3dof.ipynb   # Predict and analyze the trained HNN model of 3DOF oscillator
+  |_📄 analyze-cqd.ipynb    # Predict and analyze the trained HNN model of CQD oscillator
+  |_📄 analyze-Trap.ipynb   # Predict and analyze the trained HNN model of Penning-Trap oscillator
+📂 LNN
+  |_📂 LNN_3DOF
+    |_📂 notebooks
+      |_📄 Structure_3dof.ipynb
+  |_📂 LNN_Nonlinear
+    |_📂 notebooks
+      |_📄 Nonlinear.ipynb
+  |_📂 LNN_Trap
+    |_📂 notebooks
+      |_📄 Structure_trap.ipynb
+  |_📄 datasets.py # General mixed-data sets. Contains the dictionary describing all available data.
+  |_📄 hdf5_datasets.py # Individual classes relating to specific datasets. 
+  |_📄 mixed_dset_sampler.py # Sampler class for uniformly sampling from different sub-dsets per micro-batch
+📄 `lagrange_Bayes_CQD.py` To discover the Lagrangian of the cubic-quintic-Duffing oscillator.
+📄 `lagrange_Bayes_Trap.py` To discover the Lagrangian of the Penning Trap.
+📄 `lagrange_Bayes_3DOF.py` To discover the Lagrangian of a 3DOF oscillator.
+📄 `lagrange_Bayes_string.py` To discover the Lagrangian of wave equation.
+📄 `lagrange_Bayes_beam.py` To discover the Lagrangian of the Euler-Bernoulli beam.
+📄 `lagrange_Bayes_Two_Body.py` To discover the Lagrangian of the two-body system.
+📄 `utils.py` This code contains useful functions for library construction and sparse Bayesian regression.
+📄 `utils_data.py` This code contains useful functions for data generation.
+📄 `beam3fun.py` This code contains functions for the Euler-Bernoulli beam simulation.
+```
     
 ## BibTex
 Cite us at,
